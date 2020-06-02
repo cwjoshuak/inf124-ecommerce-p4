@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="inf124-ecommerce-p3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/inf124_ecommerce_p3_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="inf124-ecommerce-p3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="inf124-ecommerce-p3/web/Web" />
+    </root>
+  </artifact>
+</component>
