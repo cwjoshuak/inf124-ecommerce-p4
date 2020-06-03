@@ -8,4 +8,13 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
+    <servlet>
+        <servlet-name>products</servlet-name>
+        <jsp-file>/products.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>products</servlet-name>
+        <url-pattern>/products/*</url-pattern>
+    </servlet-mapping>
 </web-app>

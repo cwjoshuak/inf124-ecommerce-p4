@@ -11,7 +11,7 @@ import java.sql.Connection;
 import java.sql.*;
 import java.util.*;
 
-@WebServlet(name="Products", value="/products")
+@WebServlet(name="Products", value="/oldproducts")
 public class ProductsServlet extends HttpServlet {
 	private String url = "jdbc:mysql://localhost:3306/ecrocs?serverTimezone=UTC";
 	private String dbUsername = "root";
